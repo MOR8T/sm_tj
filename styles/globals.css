@@ -1,0 +1,10 @@
+@import "tailwindcss";
+.backImg {
+  background-image: url("../public/BackgroundContact.svg");
+  background-size: cover;
+}
+.fsf_blur {
+  background: rgba(224, 225, 226, 0.906);
+  /* height: 90vh; */
+  backdrop-filter: wg;
+}

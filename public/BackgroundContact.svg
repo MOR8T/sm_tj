@@ -1,0 +1,38 @@
+<svg width="1440" height="969" viewBox="0 0 1440 969" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_185_252)">
+<rect width="1440" height="969" fill="white"/>
+<g filter="url(#filter0_f_185_252)">
+<circle cx="707.5" cy="-167" r="790.5" fill="url(#paint0_angular_185_252)"/>
+</g>
+<g filter="url(#filter1_f_185_252)">
+<circle cx="552.25" cy="-73.25" r="605.25" fill="url(#paint1_angular_185_252)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_185_252" x="-383" y="-1257.5" width="2181" height="2181" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_185_252"/>
+</filter>
+<filter id="filter1_f_185_252" x="-653" y="-1278.5" width="2410.5" height="2410.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="300" result="effect1_foregroundBlur_185_252"/>
+</filter>
+<radialGradient id="paint0_angular_185_252" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(707.5 -167) rotate(87.0873) scale(939.531)">
+<stop offset="0.164263" stop-color="#2B6ED1"/>
+<stop offset="0.685108" stop-color="#062550"/>
+<stop offset="1" stop-color="#88A3C7"/>
+</radialGradient>
+<radialGradient id="paint1_angular_185_252" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(552.25 -73.25) scale(605.25)">
+<stop offset="0.269613" stop-color="#FF9D3F"/>
+<stop offset="0.504104" stop-color="#F46772"/>
+<stop offset="0.612837" stop-color="#AF33E4"/>
+<stop offset="0.743238" stop-color="#2F70E4"/>
+<stop offset="0.986924" stop-color="#56D6FF"/>
+</radialGradient>
+<clipPath id="clip0_185_252">
+<rect width="1440" height="969" fill="white"/>
+</clipPath>
+</defs>
+</svg>
