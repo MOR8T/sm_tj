@@ -15,7 +15,7 @@ const Header = () => {
   const t = useTranslations("Header");
 
   // Extract current locale from path, fallback to 'en'
-  const currentLocale = pathname.split("/")[1] || "en";
+  const currentLocale = pathname?.split("/")?.[1] || "en";
 
   const [locale, setLocale] = useState(currentLocale);
 
