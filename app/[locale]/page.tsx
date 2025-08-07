@@ -1,5 +1,4 @@
 import React from "react";
-import { useTranslations } from "next-intl";
 import Sixth from "../components/first page/sixth section/fourth";
 import Fourth from "../components/first page/fourth section/sixth";
 import Eighth from "../components/first page/eighth section/eighth";
@@ -16,7 +15,6 @@ import Twelvth from "../components/product card/eighth section/eighth";
 import Thirteenth from "../components/company page/seventh section/seventh";
 
 const Home = () => {
-  const t = useTranslations("HomePage");
   return (
     <section>
       {/* first section */}
