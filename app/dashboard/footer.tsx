@@ -1,6 +1,6 @@
 import React from "react";
-import flag from "@/public/flagEuro.svg";
-import arrowUp from "@/public/Vector (1).svg";
+// import flag from "@/public/flagEuro.svg";
+// import arrowUp from "@/public/Vector (1).svg";
 import Image from "next/image";
 import facebook from "@/public/Facebook.svg";
 import instagram from "@/public/Instagram.svg";
@@ -8,24 +8,26 @@ import playMarket from "@/public/PlayMarket.svg";
 import appStore from "@/public/AppStore.svg";
 import logo from "@/public/Logo.svg";
 import { useTranslations } from "next-intl";
+import LocaleSwicherSelect from "../components/localeSwicherSelect/LocaleSwicherSelect";
 
 const Footer = () => {
   const t = useTranslations("Footer");
   return (
-    <div className="bg-[#F6F7F8] md:h-[1213px]">
+    <div className="bg-[#F6F7F8] md:min-h-[1213px]">
       <footer className="md:max-w-[1241px] m-auto w-[90%] flex flex-col gap-15 py-15">
         <section className="h-[387px] w-[100%] bg-white rounded-[30px] p-13 relative">
           <div className="bg-gradient-to-b md:from-[#ffffff00] to-white absolute right-0 left-0 top-[50%] md:top-0 bottom-0 rounded-[30px]"></div>
-          <div className="w-full h-[208px] md:w-[1097px] overflow-y-auto md:overflow-y-hidden">
+          <div className="w-full h-[208px] md:max-w-[1097px] overflow-y-auto md:overflow-y-hidden">
             <p className=" text-[#4B5563]">{t("footerdisclaimer")}</p>
           </div>
         </section>
         <section className="flex items-center gap-2 justify-start md:justify-end">
-          <Image src={flag} alt="Arrow up" />
+          {/* <Image src={flag} alt="Arrow up" />
           <h2 className="text-[14px] text-[#1F2937] font-semibold">
             {t("footerlanguage")}
           </h2>
-          <Image src={arrowUp} alt="Arrow up" />
+          <Image src={arrowUp} alt="Arrow up" /> */}
+          <LocaleSwicherSelect />
         </section>
         <section className="flex justify-between flex-wrap">
           <div className="md:w-[281px] h-[180px] flex flex-col gap-2">
@@ -91,7 +93,7 @@ const Footer = () => {
             <Image src={playMarket} alt="play store" />
           </div>
         </section>
-        <hr className="border-1 border-[#1F29370D] md:block hidden"/>
+        <hr className="border-1 border-[#1F29370D] md:block hidden" />
         <section className="flex md:items-center md:gap-30 md:flex-row flex-col gap-2">
           <Image src={logo} alt="Logo" />
           <p className="text-[#1F2937] underline cursor-pointer">

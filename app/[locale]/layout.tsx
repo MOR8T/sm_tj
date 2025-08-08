@@ -31,7 +31,7 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const { locale } = params;
+  const { locale } = await params;
 
   const supportedLocales = ["en", "ru", "tj"];
   if (!supportedLocales.includes(locale)) {

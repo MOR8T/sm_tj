@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import phone from "@/public/Group 2085665869.svg";
 import home from "@/public/Group 2085665885.png";
-import shot from "@/public/Logo.png";
+// import shot from "@/public/Logo.png";
 import headphone from "@/public/logo2.png";
 import { useTranslations } from "next-intl";
 
@@ -30,7 +30,7 @@ const Fourth = () => {
             </aside>
           </article>
           <article className="flex items-start gap-5">
-            <Image src={shot} alt="home" />
+            {/* <Image src={shot} alt="home" /> */}
             <aside>
               <h2 className="text-[#1F2937] text-[18px] font-semibold">
                 {t("fourth_step2_title")}
