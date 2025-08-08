@@ -107,7 +107,7 @@ const First = () => {
     },
   ];
   return (
-    <section className={`md:h-[900px] backImg`}>
+    <section className={`md:h-[100%] backImg`}>
       <div className="fsf_blur">
         <section className="md:max-w-[1300px] w-[90%] m-auto md:border-r-2 md:border-l-2 border-[#1514180D] h-[100%] flex flex-col items-center justify-center">
           <h1 className="md:w-[692px] md:text-[62px] text-2xl font-semibold text-center mt-20">

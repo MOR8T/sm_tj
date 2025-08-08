@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import phone from "@/public/Group 2085665869.svg";
 import home from "@/public/Group 2085665885.png";
-import shot from "@/public/logo.png";
+import shot from "@/public/Logo.png";
 import headphone from "@/public/logo2.png";
 import { useTranslations } from "next-intl";
 

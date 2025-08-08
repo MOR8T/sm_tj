@@ -1,11 +1,11 @@
 import React from "react";
-import flag from "@/public/Image [lazy].svg";
+import flag from "@/public/flagEuro.svg";
 import arrowUp from "@/public/Vector (1).svg";
 import Image from "next/image";
-import facebook from "@/public/Link [link-icon].svg";
-import instagram from "@/public/Link [link-icon] (1).svg";
-import playMarket from "@/public/Image [h-40] (1).svg";
-import appStore from "@/public/Image [h-40].svg";
+import facebook from "@/public/Facebook.svg";
+import instagram from "@/public/Instagram.svg";
+import playMarket from "@/public/PlayMarket.svg";
+import appStore from "@/public/AppStore.svg";
 import logo from "@/public/Logo.svg";
 import { useTranslations } from "next-intl";
 
@@ -16,7 +16,7 @@ const Footer = () => {
       <footer className="md:max-w-[1241px] m-auto w-[90%] flex flex-col gap-15 py-15">
         <section className="h-[387px] w-[100%] bg-white rounded-[30px] p-13 relative">
           <div className="bg-gradient-to-b md:from-[#ffffff00] to-white absolute right-0 left-0 top-[50%] md:top-0 bottom-0 rounded-[30px]"></div>
-          <div className="w-full h-[208px] md:w-[1097px] overflow-y-auto">
+          <div className="w-full h-[208px] md:w-[1097px] overflow-y-auto md:overflow-y-hidden">
             <p className=" text-[#4B5563]">{t("footerdisclaimer")}</p>
           </div>
         </section>
