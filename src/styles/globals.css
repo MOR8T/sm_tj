@@ -21,7 +21,7 @@ code {
 }
 
 .backImg {
-  background-image: url("@/../public/BackgroundContact.svg");
+  background-image: url("../../public/BackgroundContact.svg");
   background-size: cover;
 }
 .fsf_blur {
