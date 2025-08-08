@@ -14,7 +14,7 @@ function DropdownUI({ text, items }: { text: string; items: ItemType[] }) {
       >
         <button
           onClick={() => {}}
-          className="text-[#1F2937] text-[15px] leading-[19px] flex items-center gap-[15px]"
+          className="text-[#1F2937] text-[15px] cursor-pointer leading-[19px] flex items-center gap-[15px]"
         >
           {text}
           <IoIosArrowDown />
